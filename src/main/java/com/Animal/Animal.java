@@ -14,14 +14,14 @@ public abstract class Animal {
     }
 
     ////////(METHODS)/////////
-    public static void eat(String food) {
-        System.out.println("Worm eaten");
-    }
+    public abstract void eat(String food);
 
     public void sleep(int time) {
 
     }
     public abstract Animal reproduce();
+
+    public abstract String Breathe();
 
     public int getAnimalLegs(){
         return animalLegs;
@@ -29,5 +29,9 @@ public abstract class Animal {
 
     public int getAnimalAge() {
         return animalYears;
+    }
+
+    public void setAnimalYears(int animalYears) {
+        this.animalYears = animalYears;
     }
 }
