@@ -16,9 +16,6 @@ public abstract class Animal {
     ////////(METHODS)/////////
     public abstract void eat(String food);
 
-    public void sleep(int time) {
-
-    }
     public abstract Animal reproduce();
 
     public abstract String Breathe();
