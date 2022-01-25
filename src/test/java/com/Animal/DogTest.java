@@ -4,7 +4,7 @@ package com.Animal;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Dogtest {
+public class DogTest {
 
     @Test
     public void testEat(){
