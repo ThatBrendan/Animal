@@ -9,8 +9,9 @@ public class Main {
         pound.add(dog);
 
         for (Animal a: pound){
-            a.eat("Worms");
+            a.eat("Bones");
             System.out.println(a.Breathe());
+            a.reproduce();
         }
     }
 }

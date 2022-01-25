@@ -11,5 +11,7 @@ public class DogTest {
         Dog testDog = new Dog();
         testDog.eat("Worm");
         assertEquals(11,testDog.getSize(),"The dog did not gain the right weight");
+        testDog.reproduce();
+        testDog.Breathe();
     }
 }
